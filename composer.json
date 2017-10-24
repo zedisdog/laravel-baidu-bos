@@ -1,0 +1,17 @@
+{
+    "name": "dezsidog/laravel-baidu-bos",
+    "description": "this is a laravel package for baidu bos",
+    "type": "library",
+    "license": "apache 2.0",
+    "require": {
+        "php": ">=7.1.0",
+        "dezsidog/flysystem-baidu-bos": "^0.1.0",
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dezsidog\\BaiduBos\\": "src/",
+            "Tests\\": "tests/"
+        }
+    }
+}
