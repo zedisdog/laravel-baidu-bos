@@ -13,5 +13,12 @@
             "Dezsidog\\BaiduBos\\": "src/",
             "Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dezsidog\\BaiduBos\\ServiceProvider"
+            ]
+        }
     }
 }
