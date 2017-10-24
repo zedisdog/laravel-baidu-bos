@@ -46,6 +46,11 @@ Add bos disk
         'endpoint' => 'your-endpoint',
         'stsEndpoint' => 'your-sts-endpoint',
         'bucket' => 'amiedu',
+        
+        //if use Storage::url(path); file this
+        'protocol' => 'http:// or https://',
+        'domain' => 'www.xxxx.com',
+        'uri_prefix' => 'upload',//this can be ''
     ],
 ],
 ```

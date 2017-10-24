@@ -31,7 +31,13 @@ class ServiceProvider extends BaseServiceProvider
                 'stsEndpoint' => $config['stsEndpoint'],
             ]);
 
-            return new Filesystem(new BaiduBosAdapter($client, $config['bucket']));
+            if ($config['protocol'] && $config['domain']) {
+                $domain = ($config['protocol'] ? $config['protocol'].'://' : 'http://').$config['domain'];
+            }else{
+                $domain = '';
+            }
+
+            return new Filesystem(new BaiduBosAdapter($client, $config['bucket'],$domain,$config['uri_prefix']));
         });
     }
 
