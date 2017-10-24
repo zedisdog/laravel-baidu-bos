@@ -40,13 +40,13 @@ Add bos disk
 			'url_type'  => 'publicURL'
 		],
 		'baidu-bos' => [
-            'driver' => 'baidu-bos',
-            'accessKeyId' => 'your-ak',
-            'secretAccessKey' => 'your-sk',
-            'sessionToken' => 'your-token',
-            'endpoint' => 'your-endpoint',
-            'stsEndpoint' => 'your-sts-endpoint',
-            'bucket' => 'amiedu',
+                        'driver' => 'baidu-bos',
+                        'accessKeyId' => 'your-ak',
+                        'secretAccessKey' => 'your-sk',
+                        'sessionToken' => 'your-token',
+                        'endpoint' => 'your-endpoint',
+                        'stsEndpoint' => 'your-sts-endpoint',
+                        'bucket' => 'amiedu',
 		],
 	],
 ```
