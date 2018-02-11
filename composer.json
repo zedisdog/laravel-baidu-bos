@@ -2,7 +2,7 @@
     "name": "dezsidog/laravel-baidu-bos",
     "description": "this is a laravel package for baidu bos",
     "type": "library",
-    "license": "apache 2.0",
+    "license": "Apache-2.0",
     "require": {
         "php": ">=7.1.0",
         "laravel/framework": "5.5.*",
